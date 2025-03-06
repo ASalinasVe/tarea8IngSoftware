@@ -1,5 +1,5 @@
-let score1 = 0;
-let score2 =0;
+// let score1 = 0;
+// let score2 =0;
 
 export function getScore(p1, p2) {
     if (p1 == 0 && p2 == 0) {
@@ -9,6 +9,7 @@ export function getScore(p1, p2) {
         return "Fifteen - Love";
     }
 }
+
 
 // export function getScore(p1,p2) {
 //     score1 = 0;
@@ -40,12 +41,12 @@ export function getScore(p1, p2) {
 // }
 
 
-export function increaseScore(player) {
-    if (player == 1){
-        if (score1 == 0 && score1 ){
-            score1 += 15;
-        }
-    }else{
-        score2 += 15;
-    } 
-}
+// export function increaseScore(player) {
+//     if (player == 1){
+//         if (score1 == 0 && score1 ){
+//             score1 += 15;
+//         }
+//     }else{
+//         score2 += 15;
+//     } 
+// }

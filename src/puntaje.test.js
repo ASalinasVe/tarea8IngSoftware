@@ -17,7 +17,6 @@ describe("Mostrar el Puntaje del game:", () => {
     })
     it("Deberia mostrar el puntaje 15 - Love", () =>
     {
-        expect(getScore(1,0)).toEqual("Fifteen - Love")
+            expect(getScore(1,0)).toEqual("Fifteen - Love")
     })
-
 })
